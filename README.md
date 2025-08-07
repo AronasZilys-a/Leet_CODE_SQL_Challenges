@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-project-employees-i](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1161-project-employees-i) |
 | [1182-game-play-analysis-iv](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1182-game-play-analysis-iv) |
 | [1245-user-activity-for-the-past-30-days-i](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1245-user-activity-for-the-past-30-days-i) |
+| [1278-product-price-at-a-given-date](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1278-product-price-at-a-given-date) |
 | [1292-immediate-food-delivery-ii](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1292-immediate-food-delivery-ii) |
 | [1317-monthly-transactions-i](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1317-monthly-transactions-i) |
 | [1390-average-selling-price](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1390-average-selling-price) |
