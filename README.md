@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0180-consecutive-numbers](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/0180-consecutive-numbers) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0596-classes-with-at-least-5-students](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/0596-classes-with-at-least-5-students) |
 | [0610-triangle-judgement](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/0610-triangle-judgement) |
