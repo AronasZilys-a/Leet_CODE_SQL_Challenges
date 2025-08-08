@@ -14,14 +14,11 @@ seven_days as
     select
     visited_on,
     sum(amount) over(order by visited_on asc rows between 6 preceding and current row) as amount,
-    round(avg(amount) over(order by visited_on asc rows between 6 preceding and current row),2) as average_amount,
-    row_number() over (order by visited_on asc) as rn
+    round(avg(amount) over(order by visited_on asc rows between 6 preceding and current row),2) as average_amount
     from daily_totals
 )
 
 select
-visited_on,
-amount,
-average_amount
+*
 from seven_days
-where rn >= 7
+limit 99999 offset 6
