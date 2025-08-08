@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1327-last-person-to-fit-in-the-bus](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1327-last-person-to-fit-in-the-bus) |
 | [1390-average-selling-price](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1415-students-and-examinations) |
+| [1452-restaurant-growth](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1452-restaurant-growth) |
 | [1480-movie-rating](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1480-movie-rating) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1877-find-followers-count](https://github.com/AronasZilys-a/Leet_CODE_SQL_Challenges/tree/master/1877-find-followers-count) |
