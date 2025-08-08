@@ -1,31 +1,27 @@
 # Write your MySQL query statement below
 
-WITH daily_totals AS (
-    SELECT
-        visited_on,
-        SUM(amount) AS amount
-    FROM customer
-    GROUP BY visited_on
-),
-moving_avg_and_total AS (
-    SELECT
-        visited_on,
-        amount,
-        ROUND(AVG(amount) OVER (
-            ORDER BY visited_on
-            ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-        ), 2) AS average_amount,
-        SUM(amount) OVER (
-            ORDER BY visited_on
-            ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-        ) AS rolling_total,
-        ROW_NUMBER() OVER (ORDER BY visited_on) AS rn
-    FROM daily_totals
-)
-SELECT
+with daily_totals as
+(
+    select
     visited_on,
-    rolling_total as amount,
-    average_amount
-FROM moving_avg_and_total
-WHERE rn >= 7
-ORDER BY visited_on;
+    sum(amount) as amount
+    from customer
+    group by visited_on
+),
+
+seven_days as
+(
+    select
+    visited_on,
+    sum(amount) over(order by visited_on asc rows between 6 preceding and current row) as amount,
+    round(avg(amount) over(order by visited_on asc rows between 6 preceding and current row),2) as average_amount,
+    row_number() over (order by visited_on asc) as rn
+    from daily_totals
+)
+
+select
+visited_on,
+amount,
+average_amount
+from seven_days
+where rn >= 7
