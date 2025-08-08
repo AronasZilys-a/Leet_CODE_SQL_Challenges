@@ -7,7 +7,6 @@ select
 dense_rank() over(partition by departmentid order by salary desc) top_flag
 from employee
 )
-
 select
 d.name as Department,
 f.name as Employee,
