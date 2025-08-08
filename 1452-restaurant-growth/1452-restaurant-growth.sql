@@ -21,4 +21,4 @@ seven_days as
 select
 *
 from seven_days
-limit 999 offset 6
+limit 9999999 offset 6
