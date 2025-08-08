@@ -3,4 +3,4 @@
 select
 *
 from patients
-WHERE conditions regexp '^DIAB1| DIAB1'
+WHERE conditions like '% DIAB1%' or conditions like 'DIAB1%'
